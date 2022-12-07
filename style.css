@@ -1,16 +1,14 @@
 body {
-    font-family: 'Work Sans', sans-serif;
-    background-color: #000000;
-    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
 }
 
-h1, h2 {
-    font-family: 'Bree Serif', serif;
-    font-family: 'Work Sans', sans-serif;
-    color: #ffffff;
+h1 {
+    font-family: 'Titillium Web', sans-serif;
 }
 
-/* header */
+/* main-header */
 
 .container {
     max-width: 1180px;
@@ -21,39 +19,101 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 header {
-    padding: 30px 30px;
-    display: block;
+  background-color: #F8F9FA;
+  padding: 40px 0;
 }
   
-.navbar {
-  border-radius: 5px;
-  padding: 15px 10px;
-}
-
-.navbar-nav a:hover {
-    border-bottom: 3px solid #ffc107;
-    color: #ffc107;
-}
-  
-.navbar-nav a.active {
-    border-bottom: 3px solid #ffc107;
-    color: #ffc107;
-}
-
-.nav-link {
-  color: #ffffff;
-  font-size: 20px;
-  margin-left: 50px;
-}
 
 .logo {
-    width: 140px;
+    height: 53px;
+    padding-right: 10px;
 }
 
-/* section */
+.logo-title {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.item-orange {
+    color: #db5e41;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#F7F3F1;
+}
+
+.fa-location-dot, .fa-square-facebook, .fa-phone  {
+    width: 30px;
+    height: 30px;
+}
+
+.top-contact {
+    font-size: 15px;
+    color: #080d1c;
+}
+
+.top-content {
+    font-size: 16px;
+    color: #080d1c;
+    font-weight: bold;
+    line-height: 24px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: #db5e41;
+}
+
+/* navbar */
+
+.navbar {
+    position: absolute;
+    background-color: #ffffff;
+    width: fit-content;
+    z-index: 1100;
+    padding: 20px 45px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.2);
+  }
+  
+.navbar-nav a:hover {
+    color: #db5e41;
+}
+    
+.navbar-nav a.active {
+    color: #db5e41;
+}
+  
+.nav-link {
+    color: #000000;
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+}
+
+/* section with carousel */
 
 
+.img-carousel {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center center;
+    height: 600px;
+}
 
+.hero {
+    max-height: 750px;
+}
