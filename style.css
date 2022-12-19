@@ -1,12 +1,9 @@
 body {
     font-family: 'Prompt', sans-serif;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #faf7f6;
+    color: #232323;
 }
 
-h1 {
-    font-family: 'Titillium Web', sans-serif;
-}
 
 /* main-header */
 
@@ -23,10 +20,10 @@ h1 {
 }
 
 header {
-  background-color: #F8F9FA;
-  padding: 40px 0;
+    background-color: #F8F9FA;
+    padding: 40px 0;
 }
-  
+
 
 .logo {
     height: 53px;
@@ -47,23 +44,33 @@ header {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color:#F7F3F1;
+    background-color: #F7F3F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 
-.fa-location-dot, .fa-square-facebook, .fa-phone  {
+.fa-location-dot,
+.fa-square-facebook,
+.fa-phone {
     width: 30px;
     height: 30px;
 }
 
-.top-contact {
+.top-content-item {
     font-size: 15px;
+    color: #080d1c;
+}
+
+.top-contact {
+    font-size: 16px;
     color: #080d1c;
 }
 
 .top-content {
     font-size: 16px;
     color: #080d1c;
-    font-weight: bold;
     line-height: 24px;
     display: block;
 }
@@ -71,43 +78,89 @@ header {
 a {
     text-decoration: none;
 }
-  
+
 a:hover {
     text-decoration: none;
     color: #db5e41;
 }
 
+
+.header-item-content {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 /* navbar */
+.nav-wrapper {
+    margin-bottom: -41px;
+    background-color: #F8F9FA;
+}
 
 .navbar {
-    position: absolute;
     background-color: #ffffff;
-    width: fit-content;
+    width: 100%;
     z-index: 1100;
     padding: 20px 45px;
-    box-shadow: 0 2px 20px 0 rgba(0,0,0,.2);
-  }
-  
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .2);
+}
+
 .navbar-nav a:hover {
     color: #db5e41;
 }
-    
+
 .navbar-nav a.active {
     color: #db5e41;
 }
-  
+
 .nav-link {
-    color: #000000;
+    color: #080d1c;
     font-size: 18px;
     margin-left: 20px;
     font-family: 'Prompt', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
+
+.main-menu-right {
+    background-color: #000000;
+}
+
+.menu-right-link {
+    color: #db5e41;
+    font-size: 18px;
+}
+
+.menu-right-link:hover {
+    color: #d3a397e0;
+    
+}
+
+/* section */
+.service,
+.about-us,
+footer, .history, .main-products, .contact {
+    padding-top: 80px;
+    overflow: hidden;
+    padding-bottom: 80px;
+    background-color: #faf7f6;
+}
+
+h2 {
+    font-size: 65px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.section-paragraph {
+    font-size: 18px;
+    color: #232323;
+    opacity: .80;
+    text-align: justify;
+}
+
 
 /* section with carousel */
 
-
-.img-carousel {
+.cover-img {
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center center;
@@ -117,3 +170,177 @@ a:hover {
 .hero {
     max-height: 750px;
 }
+
+.carousel-title {
+    font-size: 70px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+/* section about us */
+
+.list-symbol-none {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: #db5e41;
+    font-size: 30px;
+    line-height: 40px;
+    padding-right: 12px;
+}
+
+.text-list {
+    font-size: 18px;
+    color: #080d1c;
+}
+
+/* section services */
+
+.service {
+    background-image: url("src/img/bg-wood.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-white-title {
+    color: #ffffff;
+    text-align: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: none;
+    border: none;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .2);
+}
+
+.card-img {
+    height: 200px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 100%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+.card-text,
+.card-link {
+    font-family: 'Prompt', sans-serif;
+    color: #080d1c;
+}
+
+/* footer */
+
+footer {
+    background:linear-gradient( rgba(0, 0, 0, 0.747) 100%, rgba(0, 0, 0, 0.5)100%),url("src/img/site-footer-bg.jpg");
+}
+
+.footer-inner {
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.footer-list-symbol {
+    list-style: none;
+}
+
+.footer-item {
+    display: flex;
+    color: #959595;
+    line-height: 35px;
+}
+
+.contact-footer {
+    color: #959595;
+    font-size: 16px;
+}
+
+/* PILANA IVANDOL */
+
+h1 {
+    font-size: 90px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 2px 2px #000;
+}
+
+.history {
+    padding-top: 60px;
+}
+
+.img-section {
+    width: 380px;
+    height: 280px;
+    padding-top: 15px;
+}
+
+.hero-simple {
+    overflow: hidden;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-img-wrapper {
+    position: absolute;
+    width: 100%;
+}
+
+/* Service about us */
+
+.wood-bg-list {
+    background-color: #ffffff;
+    padding: 30px 5px;
+}
+
+
+/* KONTAKT */
+
+.contact-page-left {
+    background-color: #f1eae8;
+}
+
+.contact-page-right {
+    background-color: #db5d41db;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 0;
+    padding: 10px 20px;
+
+}
+
+.btn {
+    border-radius: 0;
+    background-color: #000000;
+    font-weight: bold;
+    border: 0;
+    padding: 15px 35px;
+}
+
+.btn:hover {
+    border-radius: 0;
+    background-color: #d3a397e0;
+}
+
+/* section google-maps */
+
