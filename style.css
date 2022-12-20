@@ -137,7 +137,7 @@ a:hover {
 /* section */
 .service,
 .about-us,
-footer, .history, .main-products, .contact {
+footer, .history, .main-products, .products {
     padding-top: 80px;
     overflow: hidden;
     padding-bottom: 80px;
@@ -183,17 +183,17 @@ h2 {
     list-style: none;
 }
 
-ul li:before {
+.text-list {
+    font-size: 18px;
+    color: #080d1c;
+}
+
+.text-list::before {
     content: '✓';
     color: #db5e41;
     font-size: 30px;
     line-height: 40px;
     padding-right: 12px;
-}
-
-.text-list {
-    font-size: 18px;
-    color: #080d1c;
 }
 
 /* section services */
@@ -310,6 +310,24 @@ h1 {
     background-color: #ffffff;
     padding: 30px 5px;
 }
+
+
+/* PROIZVODI */
+
+.nav-products {
+    border: solid 1px #e6e3e3;
+    padding: 15px 10px;
+}
+
+.nav-products-element {
+    background-color: #f1eae8;
+    padding: 12px 15px;
+    color: #080d1c;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+
 
 
 /* KONTAKT */
