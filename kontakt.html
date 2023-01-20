@@ -1,3 +1,4 @@
+<?php include 'sentMail.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -178,7 +179,7 @@
                   <input type="text" class="form-control" placeholder="Ime" name="name">
                 </div>
                 <div class="col-6">
-                  <input type="email" class="form-control" placeholder="E-mail adresa" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" placeholder="E-mail adresa" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                 </div>
                 <div class="col-6 mt-4">
                   <input type="text" class="form-control" placeholder="Broj telefona" name="phone">
@@ -190,7 +191,7 @@
                   <textarea name="message" class="form-control" placeholder="Napišite poruku"></textarea>
                 </div>
                 <div class="col-12 my-4">
-                  <button type="submit" class="btn btn-primary">Pošaljite</button>
+                  <button type="submit" name="submit" class="btn btn-primary">Pošaljite</button>
                 </div>
               </div>
             </form>
