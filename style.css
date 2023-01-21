@@ -47,9 +47,12 @@ body {
 
 header {
     background-color: #F8F9FA;
-    padding: 40px 0;
+    padding: 15px 0;
 }
 
+.logo-link, .logo-link:hover {
+    color: #000000;
+}
 
 .logo {
     height: 53px;
@@ -79,7 +82,7 @@ header {
 
 .fa-location-dot,
 .fa-square-facebook,
-.fa-phone {
+.fa-phone, .fa-envelope {
     width: 30px;
     height: 30px;
 }
@@ -176,6 +179,10 @@ a:hover {
     
 }
 
+.navbar-collapse {
+    margin-top: 10px;
+}
+
 /* section */
 .wood-cover,
 .about-us, .history, .main-products, .products {
@@ -252,6 +259,7 @@ ul {
     color: #ffffff;
     text-align: center;
     text-shadow: 2px 2px #000;
+    font-size: 40px;
 }
 
 .card {
@@ -344,7 +352,7 @@ h1 {
 
 .hero-simple {
     overflow: hidden;
-    min-height: 180px;
+    min-height: 230px;
     position: relative;
     display: flex;
     align-items: center;
@@ -437,8 +445,11 @@ h1 {
 .form-control {
     border-radius: 0;
     border: 0;
-    padding: 10px 20px;
+    padding: 15px 20px;
+}
 
+.message-height {
+    height: 126px;
 }
 
 .btn {
@@ -539,6 +550,14 @@ h1 {
         margin-top: 0;
     }
 
+    header {
+        padding: 40px 0;
+    }
+
+    .section-white-title {
+        font-size: 55px;
+    }
+
 }
  
 
@@ -564,6 +583,11 @@ h1 {
     .cover-img {
         height: 590px;
     }
+
+    header {
+        padding: 40px 0;
+    }
+
 
     /* o nama */ 
     .wood-bg-list {
