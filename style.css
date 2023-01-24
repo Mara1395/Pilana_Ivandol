@@ -50,6 +50,10 @@ header {
     padding: 15px 0;
 }
 
+.logo-link {
+    display: flex;
+}
+
 .logo-link, .logo-link:hover {
     color: #000000;
 }
@@ -186,9 +190,9 @@ a:hover {
 /* section */
 .wood-cover,
 .about-us, .history, .main-products, .products {
-    padding-top: 60px;
+    padding-top: 40px;
     overflow: hidden;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     background-color: #faf7f6;
 }
 
@@ -218,10 +222,33 @@ h2 {
     max-height: 750px;
 }
 
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background-color: rgb(0 0 0 / 40%);
+}
+
+.carousel-caption {
+    z-index: 1; 
+
+}
+
 .carousel-title {
-    font-size: 70px;
+    font-size: 32px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
+    text-shadow: 2px 2px black;
+}
+
+.carousel-paragraph {
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 2px 2px black;
 }
 
 /* section about us */
@@ -533,6 +560,14 @@ h1 {
         height: 400px;
     }
 
+    .carousel-title {
+        font-size: 50px;
+    }
+
+    .carousel-paragraph {
+        font-size: 20px;
+    }
+
     .wood-bg-list {
         padding: 22px 24px;
         margin: 20px 116px;
@@ -558,6 +593,13 @@ h1 {
         font-size: 55px;
     }
 
+    .wood-cover,
+    .about-us, .history, .main-products, .products {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+    }
+
 }
  
 
@@ -576,6 +618,10 @@ h1 {
         padding: 20px 45px;
     }
 
+    .navbar-collapse {
+        margin-top: 0;
+    }
+
     h1 {
         font-size: 90px;
     }
@@ -585,7 +631,15 @@ h1 {
     }
 
     header {
-        padding: 40px 0;
+        padding: 15px 0;
+    }
+
+    .carousel-title {
+        font-size: 70px;
+    }
+
+    .carousel-paragraph {
+        font-size: 22px;
     }
 
 
