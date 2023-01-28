@@ -280,6 +280,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .section-white-title {
@@ -631,7 +632,7 @@ h1 {
     }
 
     header {
-        padding: 15px 0;
+        padding: 30px 0;
     }
 
     .carousel-title {
@@ -642,6 +643,9 @@ h1 {
         font-size: 22px;
     }
 
+    .section-paragraph {
+        font-size: 19px;
+    }
 
     /* o nama */ 
     .wood-bg-list {
