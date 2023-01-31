@@ -296,6 +296,7 @@ ul {
     border: none;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .2);
     height: 100%;
+    margin: 2px 14px;
 }
 
 .card-img {
@@ -401,7 +402,7 @@ h1 {
 
 .wood-bg-list {
     background-color: #ffffff;
-    padding: 14px 20px;
+    padding: 14px 15px;
     margin: 20px;
 }
 
@@ -493,6 +494,10 @@ h1 {
     background-color: #d3a397e0;
 }
 
+.list-symbol-text {
+    font-size: 14px;
+}
+
  /* gallery image */
 
 .gallery-wrapper .image-wrapper {
@@ -545,11 +550,13 @@ h1 {
 
 
 
-@media (min-width: 576px) { 
-  
+@media (min-width: 375px) { 
+    .list-symbol-text {
+        font-size: 17px;
+    }
 
     
- }
+}
 
 
 @media (min-width: 768px) { 
@@ -565,7 +572,7 @@ h1 {
         font-size: 50px;
     }
 
-    .carousel-paragraph {
+    .carousel-paragraph, .list-symbol-text {
         font-size: 20px;
     }
 
@@ -645,6 +652,10 @@ h1 {
 
     .section-paragraph {
         font-size: 19px;
+    }
+
+    .card {
+        margin: 0;
     }
 
     /* o nama */ 
