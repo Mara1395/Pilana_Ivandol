@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.pilana-ivandol\.hr [NC]
+RewriteRule ^(.*)$ https://pilana-ivandol.hr/$1 [L,R=301]
+RewriteRule ^proizvodi/vrtne-garniture https://pilana-ivandol.hr/vrtne-garniture [NC,R=301,L]
+RewriteRule ^proizvodi/oprema-za-ugostiteljstvo https://pilana-ivandol.hr/ugostiteljstvo [NC,R=301,L]
+RewriteRule ^proizvodi/kreveti-i-nocni-ormari https://pilana-ivandol.hr/spavace-sobe [NC,R=301,L]
+RewriteRule ^proizvodi/ostali-proizvodi https://pilana-ivandol.hr/ostali-proizvodi [NC,R=301,L]
+RewriteRule ^proizvodi/vrata https://pilana-ivandol.hr/ostali-proizvodi [NC,R=301,L]
+RewriteRule ^index\.html$ https://pilana-ivandol.hr [NC,R=301,L]
+RewriteCond %{THE_REQUEST} \.html
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
