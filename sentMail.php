@@ -25,8 +25,8 @@
     . "Lijep pozdrav, " . "\n" . "Pilana Ivandol";
 
     //Email header
-    $headers = "Od: " . $fromEmail; //primljeni email korisnika
-    $headers2 = "Od: " . $mailto; //email kojem će korisnik biti primatelj
+    $headers = "From: " . $fromEmail; //primljeni email korisnika
+    $headers2 = "From: " . $mailto; //email kojem će korisnik biti primatelj
 
     //PHP mailer function
      $result1 = mail($mailto, $subject, $message, $headers); //email poslan Pilani Ivandol
