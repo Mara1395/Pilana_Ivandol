@@ -24,12 +24,13 @@ The Ivandol Sawmill website is a project aimed at showcasing the services, produ
 You can see my website [here](https://pilana-ivandol.hr/).
 
 
-
 ## 🛠 Languages & Tools
 * HTML
 * CSS
 * PHP
 * JavaScript
+
+![sawmill_garden_sets](https://github.com/Mara1395/Pilana_Ivandol/assets/104097778/2075fc1b-0107-4ef4-b2e1-bfd734fc4ca0)
 
 
 ### ©️ License i Credits
