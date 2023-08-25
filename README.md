@@ -21,7 +21,7 @@ The Ivandol Sawmill website is a project aimed at showcasing the services, produ
 
 
 ## Getting Started
-You can see my website [here](https://pilana-ivandol.hr/)
+You can see my website [here](https://pilana-ivandol.hr/).
 
 
 
@@ -33,7 +33,7 @@ You can see my website [here](https://pilana-ivandol.hr/)
 
 
 ### ©️ License i Credits
-Setup provided by [JavaScript Mastery](https://github.com/adrianhajdin/).
+Inspired by [Woodza](https://preview.themeforest.net/item/woodza-carpenter-and-woodwork-wordpress-theme/full_screen_preview/38400797?_ga=2.131189833.754305969.1692982128-74367612.1692982128)
 
 
 ### ✍🏻 Contact
