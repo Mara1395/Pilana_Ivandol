@@ -25,7 +25,26 @@ The Ivandol Sawmill website is a project aimed at showcasing the services, produ
 ### Dependencies
 
 
+## 🛠 Languages & Tools
+* React JS for building the UI
+* Tailwind CSS for styling components
+* Next JS 13
+* TypeScript
 
+
+### ©️ License i Credits
+Setup provided by [JavaScript Mastery](https://github.com/adrianhajdin/).
+
+
+### ✍🏻 Contact
+Contact me on the links below:
+* <a href="mailto:jelcic.marija@gmail.com">Gmail</a>
+* [Linkedin](https://www.linkedin.com/in/marija-jel%C4%8Di%C4%87-1b958a24a)
+
+
+
+
+![sawmill_contact_form](https://github.com/Mara1395/Pilana_Ivandol/assets/104097778/6249a845-1c8c-40a4-bd7a-a15ccc1966ee)
 
 
 
