@@ -21,15 +21,15 @@ The Ivandol Sawmill website is a project aimed at showcasing the services, produ
 
 
 ## Getting Started
+You can see my website [here](https://pilana-ivandol.hr/)
 
-### Dependencies
 
 
 ## 🛠 Languages & Tools
-* React JS for building the UI
-* Tailwind CSS for styling components
-* Next JS 13
-* TypeScript
+* HTML
+* CSS
+* PHP
+* JavaScript
 
 
 ### ©️ License i Credits
