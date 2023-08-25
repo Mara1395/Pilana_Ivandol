@@ -33,7 +33,7 @@ You can see my website [here](https://pilana-ivandol.hr/).
 
 
 ### ©️ License i Credits
-Inspired by [Woodza](https://preview.themeforest.net/item/woodza-carpenter-and-woodwork-wordpress-theme/full_screen_preview/38400797?_ga=2.131189833.754305969.1692982128-74367612.1692982128)
+Inspired by [Woodza](https://preview.themeforest.net/item/woodza-carpenter-and-woodwork-wordpress-theme/full_screen_preview/38400797?_ga=2.131189833.754305969.1692982128-74367612.1692982128).
 
 
 ### ✍🏻 Contact
