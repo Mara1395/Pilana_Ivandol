@@ -39,8 +39,8 @@ Inspired by [Woodza](https://preview.themeforest.net/item/woodza-carpenter-and-w
 
 ### ✍🏻 Contact
 Contact me on the links below:
-* 📧 <a href="mailto:jelcic.marija@gmail.com">Gmail</a>
-* 💼 [Linkedin](https://www.linkedin.com/in/marija-jel%C4%8Di%C4%87-1b958a24a)
+* <a href="mailto:jelcic.marija@gmail.com">Gmail</a>
+* [Linkedin](https://www.linkedin.com/in/marija-jel%C4%8Di%C4%87-1b958a24a)
   
 
 
