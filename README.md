@@ -30,11 +30,11 @@ You can see my website [here](https://pilana-ivandol.hr/).
 
 <img src="https://github.com/Mara1395/Pilana_Ivandol/assets/104097778/2075fc1b-0107-4ef4-b2e1-bfd734fc4ca0" alt="services" width="900">
 
-### ©️ License i Credits
+## ©️ License i Credits
 Inspired by [Woodza](https://preview.themeforest.net/item/woodza-carpenter-and-woodwork-wordpress-theme/full_screen_preview/38400797?_ga=2.131189833.754305969.1692982128-74367612.1692982128).
 
 
-### ✍🏻 Contact
+## ✍🏻 Contact
 Contact me on the links below:
 * <a href="mailto:jelcic.marija@gmail.com">Gmail</a>
 * [Linkedin](https://www.linkedin.com/in/marija-jel%C4%8Di%C4%87-1b958a24a)
